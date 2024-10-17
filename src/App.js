@@ -21,7 +21,7 @@ function App() {
       <p>{count}</p>
       <button onClick={increase}>Incrementa + 1</button>
       <button onClick={decrease}>Decrementa - 1</button>
-      <button onClick={reset}>RESET</button>
+      <button onClick={reset}>RESET / CLEAR</button>
     </div>
   );
 }
