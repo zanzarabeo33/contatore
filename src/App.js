@@ -19,8 +19,8 @@ function App() {
   return (
     <div>
       <p>{count}</p>
-      <button onClick={increase}>Incrementa +</button>
-      <button onClick={decrease}>Incrementa -</button>
+      <button onClick={increase}>Incrementa + 1</button>
+      <button onClick={decrease}>Decrementa - 1</button>
       <button onClick={reset}>RESET</button>
     </div>
   );
